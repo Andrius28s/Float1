@@ -1,0 +1,62 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.page {
+    width: 950px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.niutonas {
+    width: 99%;
+    height: 300px;
+    margin: 1%;
+    background: white;
+    border: 1px solid #666;    border-top: 5px solid #0974b3;
+    text-align: left;
+    padding: 20px;
+}
+
+.stulpelis {
+    float: left;
+    width: 48%;
+    padding: 20px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #666;    border-top: 5px solid #0974b3;
+}
+
+.stulpelis.albert  {
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+img {
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #0974b3;
+}
+
+h4 {
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
